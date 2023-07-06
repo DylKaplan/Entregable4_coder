@@ -1,0 +1,952 @@
+[2023-06-18 15:12:00,571] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:00,572] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:12:00,572] {logging_mixin.py:115} INFO - [2023-06-18 15:12:00,572] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:00,579] {logging_mixin.py:115} INFO - [2023-06-18 15:12:00,577] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:12:00,579] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:00,596] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.028 seconds
+[2023-06-18 15:12:10,638] {processor.py:153} INFO - Started process (PID=174) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:10,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:12:10,640] {logging_mixin.py:115} INFO - [2023-06-18 15:12:10,640] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:10,648] {logging_mixin.py:115} INFO - [2023-06-18 15:12:10,646] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:12:10,649] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:10,670] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.036 seconds
+[2023-06-18 15:12:20,724] {processor.py:153} INFO - Started process (PID=179) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:20,725] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:12:20,726] {logging_mixin.py:115} INFO - [2023-06-18 15:12:20,726] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:20,733] {logging_mixin.py:115} INFO - [2023-06-18 15:12:20,731] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:12:20,733] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:20,750] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.030 seconds
+[2023-06-18 15:12:30,818] {processor.py:153} INFO - Started process (PID=184) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:30,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:12:30,820] {logging_mixin.py:115} INFO - [2023-06-18 15:12:30,820] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:30,828] {logging_mixin.py:115} INFO - [2023-06-18 15:12:30,826] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:12:30,829] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:30,848] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.034 seconds
+[2023-06-18 15:12:40,906] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:40,907] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:12:40,908] {logging_mixin.py:115} INFO - [2023-06-18 15:12:40,908] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:40,915] {logging_mixin.py:115} INFO - [2023-06-18 15:12:40,914] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:12:40,915] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:40,933] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.031 seconds
+[2023-06-18 15:12:50,980] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:50,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:12:50,982] {logging_mixin.py:115} INFO - [2023-06-18 15:12:50,982] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:50,989] {logging_mixin.py:115} INFO - [2023-06-18 15:12:50,987] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:12:50,990] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:12:51,009] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.032 seconds
+[2023-06-18 15:13:01,146] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:01,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:13:01,149] {logging_mixin.py:115} INFO - [2023-06-18 15:13:01,149] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:01,168] {logging_mixin.py:115} INFO - [2023-06-18 15:13:01,165] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:13:01,170] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:01,222] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.083 seconds
+[2023-06-18 15:13:11,312] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:11,315] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:13:11,317] {logging_mixin.py:115} INFO - [2023-06-18 15:13:11,316] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:11,326] {logging_mixin.py:115} INFO - [2023-06-18 15:13:11,323] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:13:11,326] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:11,350] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.042 seconds
+[2023-06-18 15:13:21,432] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:21,433] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:13:21,434] {logging_mixin.py:115} INFO - [2023-06-18 15:13:21,434] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:21,442] {logging_mixin.py:115} INFO - [2023-06-18 15:13:21,440] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:13:21,442] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:21,464] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.036 seconds
+[2023-06-18 15:13:31,529] {processor.py:153} INFO - Started process (PID=214) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:31,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:13:31,532] {logging_mixin.py:115} INFO - [2023-06-18 15:13:31,532] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:31,537] {logging_mixin.py:115} INFO - [2023-06-18 15:13:31,536] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:13:31,538] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:31,553] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.029 seconds
+[2023-06-18 15:13:41,610] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:41,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:13:41,612] {logging_mixin.py:115} INFO - [2023-06-18 15:13:41,612] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:41,617] {logging_mixin.py:115} INFO - [2023-06-18 15:13:41,616] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:13:41,617] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:41,634] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.028 seconds
+[2023-06-18 15:13:51,692] {processor.py:153} INFO - Started process (PID=224) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:51,692] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:13:51,693] {logging_mixin.py:115} INFO - [2023-06-18 15:13:51,693] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:51,698] {logging_mixin.py:115} INFO - [2023-06-18 15:13:51,697] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:13:51,698] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:13:51,713] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.025 seconds
+[2023-06-18 15:14:01,737] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:01,738] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:14:01,738] {logging_mixin.py:115} INFO - [2023-06-18 15:14:01,738] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:01,743] {logging_mixin.py:115} INFO - [2023-06-18 15:14:01,742] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:14:01,744] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:01,759] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.025 seconds
+[2023-06-18 15:14:11,818] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:11,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:14:11,820] {logging_mixin.py:115} INFO - [2023-06-18 15:14:11,820] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:11,825] {logging_mixin.py:115} INFO - [2023-06-18 15:14:11,824] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:14:11,825] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:11,840] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.024 seconds
+[2023-06-18 15:14:21,910] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:21,912] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:14:21,914] {logging_mixin.py:115} INFO - [2023-06-18 15:14:21,914] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:21,927] {logging_mixin.py:115} INFO - [2023-06-18 15:14:21,924] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:14:21,929] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:21,955] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.052 seconds
+[2023-06-18 15:14:32,045] {processor.py:153} INFO - Started process (PID=244) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:32,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:14:32,048] {logging_mixin.py:115} INFO - [2023-06-18 15:14:32,048] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:32,057] {logging_mixin.py:115} INFO - [2023-06-18 15:14:32,055] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:14:32,064] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:32,087] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.048 seconds
+[2023-06-18 15:14:42,173] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:42,175] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:14:42,177] {logging_mixin.py:115} INFO - [2023-06-18 15:14:42,177] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:42,188] {logging_mixin.py:115} INFO - [2023-06-18 15:14:42,186] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:14:42,189] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:42,217] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.050 seconds
+[2023-06-18 15:14:52,304] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:52,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:14:52,307] {logging_mixin.py:115} INFO - [2023-06-18 15:14:52,307] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:52,315] {logging_mixin.py:115} INFO - [2023-06-18 15:14:52,314] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:14:52,316] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:14:52,346] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.048 seconds
+[2023-06-18 15:15:02,432] {processor.py:153} INFO - Started process (PID=259) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:02,433] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:15:02,434] {logging_mixin.py:115} INFO - [2023-06-18 15:15:02,434] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:02,442] {logging_mixin.py:115} INFO - [2023-06-18 15:15:02,441] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:15:02,443] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:02,462] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.036 seconds
+[2023-06-18 15:15:12,508] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:12,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:15:12,511] {logging_mixin.py:115} INFO - [2023-06-18 15:15:12,511] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:12,523] {logging_mixin.py:115} INFO - [2023-06-18 15:15:12,521] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:15:12,525] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:12,547] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.047 seconds
+[2023-06-18 15:15:22,609] {processor.py:153} INFO - Started process (PID=269) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:22,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:15:22,612] {logging_mixin.py:115} INFO - [2023-06-18 15:15:22,612] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:22,622] {logging_mixin.py:115} INFO - [2023-06-18 15:15:22,620] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:15:22,623] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:22,662] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.059 seconds
+[2023-06-18 15:15:32,754] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:32,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:15:32,758] {logging_mixin.py:115} INFO - [2023-06-18 15:15:32,758] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:32,768] {logging_mixin.py:115} INFO - [2023-06-18 15:15:32,766] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:15:32,769] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:32,801] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.054 seconds
+[2023-06-18 15:15:42,890] {processor.py:153} INFO - Started process (PID=279) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:42,892] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:15:42,893] {logging_mixin.py:115} INFO - [2023-06-18 15:15:42,893] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:42,903] {logging_mixin.py:115} INFO - [2023-06-18 15:15:42,901] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:15:42,904] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:42,927] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.043 seconds
+[2023-06-18 15:15:53,007] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:53,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:15:53,011] {logging_mixin.py:115} INFO - [2023-06-18 15:15:53,011] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:53,021] {logging_mixin.py:115} INFO - [2023-06-18 15:15:53,019] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:15:53,022] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:15:53,044] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.044 seconds
+[2023-06-18 15:16:03,109] {processor.py:153} INFO - Started process (PID=289) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:03,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:16:03,113] {logging_mixin.py:115} INFO - [2023-06-18 15:16:03,112] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:03,120] {logging_mixin.py:115} INFO - [2023-06-18 15:16:03,118] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:16:03,121] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:03,140] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.035 seconds
+[2023-06-18 15:16:13,181] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:13,182] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:16:13,184] {logging_mixin.py:115} INFO - [2023-06-18 15:16:13,183] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:13,191] {logging_mixin.py:115} INFO - [2023-06-18 15:16:13,190] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:16:13,192] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:13,213] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.037 seconds
+[2023-06-18 15:16:23,264] {processor.py:153} INFO - Started process (PID=299) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:23,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:16:23,267] {logging_mixin.py:115} INFO - [2023-06-18 15:16:23,267] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:23,275] {logging_mixin.py:115} INFO - [2023-06-18 15:16:23,273] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:16:23,276] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:23,299] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.040 seconds
+[2023-06-18 15:16:33,390] {processor.py:153} INFO - Started process (PID=304) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:33,391] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:16:33,393] {logging_mixin.py:115} INFO - [2023-06-18 15:16:33,393] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:33,403] {logging_mixin.py:115} INFO - [2023-06-18 15:16:33,401] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:16:33,404] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:33,426] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.043 seconds
+[2023-06-18 15:16:43,514] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:43,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:16:43,519] {logging_mixin.py:115} INFO - [2023-06-18 15:16:43,519] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:43,531] {logging_mixin.py:115} INFO - [2023-06-18 15:16:43,529] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:16:43,532] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:43,557] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.049 seconds
+[2023-06-18 15:16:53,642] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:53,643] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:16:53,644] {logging_mixin.py:115} INFO - [2023-06-18 15:16:53,644] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:53,653] {logging_mixin.py:115} INFO - [2023-06-18 15:16:53,651] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:16:53,654] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:16:53,673] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.036 seconds
+[2023-06-18 15:17:03,764] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:03,765] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:17:03,767] {logging_mixin.py:115} INFO - [2023-06-18 15:17:03,766] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:03,776] {logging_mixin.py:115} INFO - [2023-06-18 15:17:03,774] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:17:03,777] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:03,798] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.041 seconds
+[2023-06-18 15:17:13,899] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:13,901] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:17:13,902] {logging_mixin.py:115} INFO - [2023-06-18 15:17:13,902] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:13,914] {logging_mixin.py:115} INFO - [2023-06-18 15:17:13,912] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:17:13,914] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:13,937] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.047 seconds
+[2023-06-18 15:17:24,020] {processor.py:153} INFO - Started process (PID=329) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:24,022] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:17:24,024] {logging_mixin.py:115} INFO - [2023-06-18 15:17:24,024] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:24,032] {logging_mixin.py:115} INFO - [2023-06-18 15:17:24,030] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:17:24,033] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:24,055] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.040 seconds
+[2023-06-18 15:17:34,147] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:34,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:17:34,150] {logging_mixin.py:115} INFO - [2023-06-18 15:17:34,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:34,159] {logging_mixin.py:115} INFO - [2023-06-18 15:17:34,157] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:17:34,160] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:34,181] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.041 seconds
+[2023-06-18 15:17:44,261] {processor.py:153} INFO - Started process (PID=339) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:44,263] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:17:44,264] {logging_mixin.py:115} INFO - [2023-06-18 15:17:44,264] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:44,274] {logging_mixin.py:115} INFO - [2023-06-18 15:17:44,272] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:17:44,275] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:44,296] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.041 seconds
+[2023-06-18 15:17:54,373] {processor.py:153} INFO - Started process (PID=344) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:54,376] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:17:54,378] {logging_mixin.py:115} INFO - [2023-06-18 15:17:54,377] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:54,388] {logging_mixin.py:115} INFO - [2023-06-18 15:17:54,386] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:17:54,390] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:17:54,413] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.047 seconds
+[2023-06-18 15:18:04,496] {processor.py:153} INFO - Started process (PID=349) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:04,497] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:18:04,499] {logging_mixin.py:115} INFO - [2023-06-18 15:18:04,499] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:04,509] {logging_mixin.py:115} INFO - [2023-06-18 15:18:04,507] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:18:04,510] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:04,532] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.042 seconds
+[2023-06-18 15:18:14,625] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:14,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:18:14,629] {logging_mixin.py:115} INFO - [2023-06-18 15:18:14,629] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:14,639] {logging_mixin.py:115} INFO - [2023-06-18 15:18:14,637] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:18:14,640] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:14,663] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.044 seconds
+[2023-06-18 15:18:24,761] {processor.py:153} INFO - Started process (PID=359) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:24,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:18:24,764] {logging_mixin.py:115} INFO - [2023-06-18 15:18:24,764] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:24,774] {logging_mixin.py:115} INFO - [2023-06-18 15:18:24,772] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:18:24,775] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:24,797] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.042 seconds
+[2023-06-18 15:18:34,895] {processor.py:153} INFO - Started process (PID=364) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:34,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:18:34,898] {logging_mixin.py:115} INFO - [2023-06-18 15:18:34,898] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:34,907] {logging_mixin.py:115} INFO - [2023-06-18 15:18:34,905] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:18:34,909] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:34,935] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.046 seconds
+[2023-06-18 15:18:45,023] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:45,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:18:45,026] {logging_mixin.py:115} INFO - [2023-06-18 15:18:45,026] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:45,035] {logging_mixin.py:115} INFO - [2023-06-18 15:18:45,033] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:18:45,036] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:45,060] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.044 seconds
+[2023-06-18 15:18:55,134] {processor.py:153} INFO - Started process (PID=374) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:55,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:18:55,136] {logging_mixin.py:115} INFO - [2023-06-18 15:18:55,136] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:55,143] {logging_mixin.py:115} INFO - [2023-06-18 15:18:55,141] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:18:55,143] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:18:55,162] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.032 seconds
+[2023-06-18 15:19:05,200] {processor.py:153} INFO - Started process (PID=379) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:05,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:19:05,201] {logging_mixin.py:115} INFO - [2023-06-18 15:19:05,201] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:05,206] {logging_mixin.py:115} INFO - [2023-06-18 15:19:05,205] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:19:05,207] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:05,222] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.025 seconds
+[2023-06-18 15:19:15,277] {processor.py:153} INFO - Started process (PID=384) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:15,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:19:15,279] {logging_mixin.py:115} INFO - [2023-06-18 15:19:15,279] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:15,284] {logging_mixin.py:115} INFO - [2023-06-18 15:19:15,283] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:19:15,285] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:15,300] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.028 seconds
+[2023-06-18 15:19:25,337] {processor.py:153} INFO - Started process (PID=389) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:25,338] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:19:25,339] {logging_mixin.py:115} INFO - [2023-06-18 15:19:25,339] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:25,347] {logging_mixin.py:115} INFO - [2023-06-18 15:19:25,345] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:19:25,348] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:25,367] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.035 seconds
+[2023-06-18 15:19:35,411] {processor.py:153} INFO - Started process (PID=394) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:35,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:19:35,413] {logging_mixin.py:115} INFO - [2023-06-18 15:19:35,413] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:35,417] {logging_mixin.py:115} INFO - [2023-06-18 15:19:35,417] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:19:35,418] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:35,434] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.025 seconds
+[2023-06-18 15:19:45,482] {processor.py:153} INFO - Started process (PID=399) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:45,483] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:19:45,485] {logging_mixin.py:115} INFO - [2023-06-18 15:19:45,485] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:45,494] {logging_mixin.py:115} INFO - [2023-06-18 15:19:45,493] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:19:45,495] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:45,513] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.035 seconds
+[2023-06-18 15:19:55,589] {processor.py:153} INFO - Started process (PID=404) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:55,591] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:19:55,592] {logging_mixin.py:115} INFO - [2023-06-18 15:19:55,592] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:55,603] {logging_mixin.py:115} INFO - [2023-06-18 15:19:55,600] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:19:55,604] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:19:55,628] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.045 seconds
+[2023-06-18 15:20:05,725] {processor.py:153} INFO - Started process (PID=409) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:05,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:20:05,728] {logging_mixin.py:115} INFO - [2023-06-18 15:20:05,728] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:05,743] {logging_mixin.py:115} INFO - [2023-06-18 15:20:05,740] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:20:05,744] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:05,798] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.079 seconds
+[2023-06-18 15:20:15,938] {processor.py:153} INFO - Started process (PID=414) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:15,943] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:20:15,950] {logging_mixin.py:115} INFO - [2023-06-18 15:20:15,950] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:15,977] {logging_mixin.py:115} INFO - [2023-06-18 15:20:15,970] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:20:15,979] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:16,045] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.122 seconds
+[2023-06-18 15:20:26,135] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:26,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:20:26,140] {logging_mixin.py:115} INFO - [2023-06-18 15:20:26,140] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:26,148] {logging_mixin.py:115} INFO - [2023-06-18 15:20:26,146] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:20:26,148] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:26,177] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.051 seconds
+[2023-06-18 15:20:36,256] {processor.py:153} INFO - Started process (PID=424) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:36,259] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:20:36,259] {logging_mixin.py:115} INFO - [2023-06-18 15:20:36,259] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:36,265] {logging_mixin.py:115} INFO - [2023-06-18 15:20:36,264] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:20:36,265] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:36,282] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.029 seconds
+[2023-06-18 15:20:46,319] {processor.py:153} INFO - Started process (PID=429) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:46,320] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:20:46,321] {logging_mixin.py:115} INFO - [2023-06-18 15:20:46,321] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:46,327] {logging_mixin.py:115} INFO - [2023-06-18 15:20:46,326] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:20:46,328] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:46,346] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.032 seconds
+[2023-06-18 15:20:56,426] {processor.py:153} INFO - Started process (PID=434) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:56,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:20:56,429] {logging_mixin.py:115} INFO - [2023-06-18 15:20:56,429] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:56,444] {logging_mixin.py:115} INFO - [2023-06-18 15:20:56,442] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:20:56,445] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:20:56,497] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.077 seconds
+[2023-06-18 15:21:06,607] {processor.py:153} INFO - Started process (PID=439) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:06,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:21:06,611] {logging_mixin.py:115} INFO - [2023-06-18 15:21:06,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:06,629] {logging_mixin.py:115} INFO - [2023-06-18 15:21:06,627] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:21:06,631] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:06,668] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.068 seconds
+[2023-06-18 15:21:16,741] {processor.py:153} INFO - Started process (PID=444) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:16,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:21:16,747] {logging_mixin.py:115} INFO - [2023-06-18 15:21:16,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:16,760] {logging_mixin.py:115} INFO - [2023-06-18 15:21:16,758] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:21:16,760] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:16,789] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.056 seconds
+[2023-06-18 15:21:26,864] {processor.py:153} INFO - Started process (PID=449) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:26,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:21:26,869] {logging_mixin.py:115} INFO - [2023-06-18 15:21:26,869] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:26,876] {logging_mixin.py:115} INFO - [2023-06-18 15:21:26,874] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:21:26,878] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:26,906] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.045 seconds
+[2023-06-18 15:21:36,988] {processor.py:153} INFO - Started process (PID=454) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:36,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:21:36,991] {logging_mixin.py:115} INFO - [2023-06-18 15:21:36,991] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:36,999] {logging_mixin.py:115} INFO - [2023-06-18 15:21:36,997] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:21:37,000] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:37,025] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.045 seconds
+[2023-06-18 15:21:47,094] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:47,095] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:21:47,096] {logging_mixin.py:115} INFO - [2023-06-18 15:21:47,096] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:47,101] {logging_mixin.py:115} INFO - [2023-06-18 15:21:47,100] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:21:47,102] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:47,117] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.028 seconds
+[2023-06-18 15:21:57,187] {processor.py:153} INFO - Started process (PID=464) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:57,188] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:21:57,189] {logging_mixin.py:115} INFO - [2023-06-18 15:21:57,189] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:57,195] {logging_mixin.py:115} INFO - [2023-06-18 15:21:57,194] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:21:57,195] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:21:57,219] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.037 seconds
+[2023-06-18 15:22:07,266] {processor.py:153} INFO - Started process (PID=469) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:07,267] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:22:07,268] {logging_mixin.py:115} INFO - [2023-06-18 15:22:07,268] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:07,274] {logging_mixin.py:115} INFO - [2023-06-18 15:22:07,273] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:22:07,275] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:07,291] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.030 seconds
+[2023-06-18 15:22:17,327] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:17,329] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:22:17,330] {logging_mixin.py:115} INFO - [2023-06-18 15:22:17,330] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:17,335] {logging_mixin.py:115} INFO - [2023-06-18 15:22:17,334] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:22:17,336] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:17,351] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.028 seconds
+[2023-06-18 15:22:27,426] {processor.py:153} INFO - Started process (PID=479) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:27,428] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:22:27,430] {logging_mixin.py:115} INFO - [2023-06-18 15:22:27,430] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:27,440] {logging_mixin.py:115} INFO - [2023-06-18 15:22:27,438] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:22:27,441] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:27,467] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.047 seconds
+[2023-06-18 15:22:37,564] {processor.py:153} INFO - Started process (PID=484) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:37,566] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:22:37,568] {logging_mixin.py:115} INFO - [2023-06-18 15:22:37,567] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:37,577] {logging_mixin.py:115} INFO - [2023-06-18 15:22:37,575] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:22:37,578] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:37,603] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.045 seconds
+[2023-06-18 15:22:47,682] {processor.py:153} INFO - Started process (PID=489) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:47,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:22:47,684] {logging_mixin.py:115} INFO - [2023-06-18 15:22:47,684] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:47,692] {logging_mixin.py:115} INFO - [2023-06-18 15:22:47,691] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:22:47,693] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:47,716] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.039 seconds
+[2023-06-18 15:22:57,802] {processor.py:153} INFO - Started process (PID=494) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:57,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:22:57,804] {logging_mixin.py:115} INFO - [2023-06-18 15:22:57,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:57,814] {logging_mixin.py:115} INFO - [2023-06-18 15:22:57,812] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:22:57,815] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:22:57,840] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.045 seconds
+[2023-06-18 15:23:07,917] {processor.py:153} INFO - Started process (PID=499) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:23:07,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:23:07,919] {logging_mixin.py:115} INFO - [2023-06-18 15:23:07,919] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:23:07,925] {logging_mixin.py:115} INFO - [2023-06-18 15:23:07,923] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:23:07,926] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:23:07,952] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.039 seconds
+[2023-06-18 15:23:18,046] {processor.py:153} INFO - Started process (PID=504) to work on /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:23:18,048] {processor.py:641} INFO - Processing file /opt/airflow/dags/API_ETL.py for tasks to queue
+[2023-06-18 15:23:18,049] {logging_mixin.py:115} INFO - [2023-06-18 15:23:18,049] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:23:18,060] {logging_mixin.py:115} INFO - [2023-06-18 15:23:18,057] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/API_ETL.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/API_ETL.py", line 13, in <module>
+    from pytrends import exceptions
+ModuleNotFoundError: No module named 'pytrends'
+[2023-06-18 15:23:18,061] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/API_ETL.py
+[2023-06-18 15:23:18,086] {processor.py:161} INFO - Processing /opt/airflow/dags/API_ETL.py took 0.046 seconds

@@ -1,0 +1,27 @@
+[2023-07-05 23:34:18,966] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.conexion_BD manual__2023-07-05T23:23:20.292023+00:00 [queued]>
+[2023-07-05 23:34:19,038] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.conexion_BD manual__2023-07-05T23:23:20.292023+00:00 [queued]>
+[2023-07-05 23:34:19,050] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:34:19,052] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-05 23:34:19,053] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:34:19,139] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): conexion_BD> on 2023-07-05 23:23:20.292023+00:00
+[2023-07-05 23:34:19,157] {standard_task_runner.py:52} INFO - Started process 202 to run task
+[2023-07-05 23:34:19,185] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'API_ETL', 'conexion_BD', 'manual__2023-07-05T23:23:20.292023+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/API_ETL.py', '--cfg-path', '/tmp/tmp5p5u9cvf', '--error-file', '/tmp/tmpjlpo7ihc']
+[2023-07-05 23:34:19,198] {standard_task_runner.py:80} INFO - Job 113: Subtask conexion_BD
+[2023-07-05 23:34:19,931] {task_command.py:371} INFO - Running <TaskInstance: API_ETL.conexion_BD manual__2023-07-05T23:23:20.292023+00:00 [running]> on host 8a8d74a7cb9c
+[2023-07-05 23:34:20,215] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-07-05 23:34:20,350] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DylanKaplan
+AIRFLOW_CTX_DAG_ID=API_ETL
+AIRFLOW_CTX_TASK_ID=conexion_BD
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-05T23:23:20.292023+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-05T23:23:20.292023+00:00
+[2023-07-05 23:34:20,352] {logging_mixin.py:115} INFO - Conectandose a la BD en la fecha: 2023-07-05 23
+[2023-07-05 23:34:21,780] {logging_mixin.py:115} INFO - <connection object at 0xffffa4f5a440; dsn: 'user=kaplan46611_coderhouse password=xxx dbname=data-engineer-database host=data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com port=5439', closed: 0>
+[2023-07-05 23:34:21,781] {logging_mixin.py:115} INFO - Connected to Redshift successfully!
+[2023-07-05 23:34:21,782] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-05 23:34:21,823] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=API_ETL, task_id=conexion_BD, execution_date=20230705T232320, start_date=20230705T233418, end_date=20230705T233421
+[2023-07-05 23:34:21,896] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-05 23:34:22,004] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

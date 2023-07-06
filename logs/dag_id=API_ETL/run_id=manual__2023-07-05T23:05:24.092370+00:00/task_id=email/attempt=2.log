@@ -1,0 +1,35 @@
+[2023-07-05 23:10:29,097] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T23:05:24.092370+00:00 [queued]>
+[2023-07-05 23:10:29,105] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T23:05:24.092370+00:00 [queued]>
+[2023-07-05 23:10:29,106] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:10:29,106] {taskinstance.py:1377} INFO - Starting attempt 2 of 6
+[2023-07-05 23:10:29,107] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:10:29,118] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): email> on 2023-07-05 23:05:24.092370+00:00
+[2023-07-05 23:10:29,123] {standard_task_runner.py:52} INFO - Started process 290 to run task
+[2023-07-05 23:10:29,128] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'API_ETL', 'email', 'manual__2023-07-05T23:05:24.092370+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/API_ETL.py', '--cfg-path', '/tmp/tmpapumkxct', '--error-file', '/tmp/tmpbr64o7j2']
+[2023-07-05 23:10:29,130] {standard_task_runner.py:80} INFO - Job 70: Subtask email
+[2023-07-05 23:10:29,201] {task_command.py:371} INFO - Running <TaskInstance: API_ETL.email manual__2023-07-05T23:05:24.092370+00:00 [running]> on host 0808ffb1fb61
+[2023-07-05 23:10:29,238] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-07-05 23:10:29,274] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DylanKaplan
+AIRFLOW_CTX_DAG_ID=API_ETL
+AIRFLOW_CTX_TASK_ID=email
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-05T23:05:24.092370+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-05T23:05:24.092370+00:00
+[2023-07-05 23:10:29,290] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/API_ETL.py", line 87, in enviar
+    if dataframe['Vino']:
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 1538, in __nonzero__
+    f"The truth value of a {type(self).__name__} is ambiguous. "
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[2023-07-05 23:10:29,304] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=API_ETL, task_id=email, execution_date=20230705T230524, start_date=20230705T231029, end_date=20230705T231029
+[2023-07-05 23:10:29,313] {standard_task_runner.py:97} ERROR - Failed to execute job 70 for task email (The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().; 290)
+[2023-07-05 23:10:29,340] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-05 23:10:29,382] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

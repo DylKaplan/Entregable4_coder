@@ -1,0 +1,48 @@
+[2023-07-05 23:12:02,782] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T23:11:59.545221+00:00 [queued]>
+[2023-07-05 23:12:02,790] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T23:11:59.545221+00:00 [queued]>
+[2023-07-05 23:12:02,791] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:12:02,791] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-05 23:12:02,792] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:12:02,803] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): email> on 2023-07-05 23:11:59.545221+00:00
+[2023-07-05 23:12:02,809] {standard_task_runner.py:52} INFO - Started process 186 to run task
+[2023-07-05 23:12:02,814] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'API_ETL', 'email', 'manual__2023-07-05T23:11:59.545221+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/API_ETL.py', '--cfg-path', '/tmp/tmpjfmqpqtm', '--error-file', '/tmp/tmp4v79yfel']
+[2023-07-05 23:12:02,815] {standard_task_runner.py:80} INFO - Job 73: Subtask email
+[2023-07-05 23:12:02,882] {task_command.py:371} INFO - Running <TaskInstance: API_ETL.email manual__2023-07-05T23:11:59.545221+00:00 [running]> on host 0808ffb1fb61
+[2023-07-05 23:12:02,919] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-07-05 23:12:02,956] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DylanKaplan
+AIRFLOW_CTX_DAG_ID=API_ETL
+AIRFLOW_CTX_TASK_ID=email
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-05T23:11:59.545221+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-05T23:11:59.545221+00:00
+[2023-07-05 23:12:02,973] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Cerveza'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/API_ETL.py", line 87, in enviar
+    if dataframe['Vino'] is True or dataframe['Cerveza'] is True:
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Cerveza'
+[2023-07-05 23:12:02,996] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=API_ETL, task_id=email, execution_date=20230705T231159, start_date=20230705T231202, end_date=20230705T231202
+[2023-07-05 23:12:03,009] {standard_task_runner.py:97} ERROR - Failed to execute job 73 for task email ('Cerveza'; 186)
+[2023-07-05 23:12:03,026] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-05 23:12:03,065] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

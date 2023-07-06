@@ -1,0 +1,27 @@
+[2023-07-05 23:03:35,917] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T23:03:32.430437+00:00 [queued]>
+[2023-07-05 23:03:35,925] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T23:03:32.430437+00:00 [queued]>
+[2023-07-05 23:03:35,926] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:03:35,927] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-05 23:03:35,927] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 23:03:35,939] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): email> on 2023-07-05 23:03:32.430437+00:00
+[2023-07-05 23:03:35,947] {standard_task_runner.py:52} INFO - Started process 186 to run task
+[2023-07-05 23:03:35,953] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'API_ETL', 'email', 'manual__2023-07-05T23:03:32.430437+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/API_ETL.py', '--cfg-path', '/tmp/tmpc83oqm6h', '--error-file', '/tmp/tmpicehr_oo']
+[2023-07-05 23:03:35,954] {standard_task_runner.py:80} INFO - Job 57: Subtask email
+[2023-07-05 23:03:36,024] {task_command.py:371} INFO - Running <TaskInstance: API_ETL.email manual__2023-07-05T23:03:32.430437+00:00 [running]> on host 0808ffb1fb61
+[2023-07-05 23:03:36,062] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-07-05 23:03:36,099] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DylanKaplan
+AIRFLOW_CTX_DAG_ID=API_ETL
+AIRFLOW_CTX_TASK_ID=email
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-05T23:03:32.430437+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-05T23:03:32.430437+00:00
+[2023-07-05 23:03:36,116] {logging_mixin.py:115} INFO - Enviando mail. Fecha: 2023-07-05 23
+[2023-07-05 23:03:38,262] {logging_mixin.py:115} INFO - 'ascii' codec can't encode character '\xe1' in position 21: ordinal not in range(128)
+[2023-07-05 23:03:38,262] {logging_mixin.py:115} INFO - Failure
+[2023-07-05 23:03:38,263] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-05 23:03:38,276] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=API_ETL, task_id=email, execution_date=20230705T230332, start_date=20230705T230335, end_date=20230705T230338
+[2023-07-05 23:03:38,337] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-05 23:03:38,412] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,36 @@
+[2023-07-01 15:46:08,052] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.cargar_data manual__2023-07-01T15:46:05.786068+00:00 [queued]>
+[2023-07-01 15:46:08,057] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.cargar_data manual__2023-07-01T15:46:05.786068+00:00 [queued]>
+[2023-07-01 15:46:08,057] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-01 15:46:08,058] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-01 15:46:08,058] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-01 15:46:08,065] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cargar_data> on 2023-07-01 15:46:05.786068+00:00
+[2023-07-01 15:46:08,068] {standard_task_runner.py:52} INFO - Started process 413 to run task
+[2023-07-01 15:46:08,071] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'API_ETL', 'cargar_data', 'manual__2023-07-01T15:46:05.786068+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/API_ETL.py', '--cfg-path', '/tmp/tmp86fh4ubf', '--error-file', '/tmp/tmppbgxv8qd']
+[2023-07-01 15:46:08,073] {standard_task_runner.py:80} INFO - Job 5: Subtask cargar_data
+[2023-07-01 15:46:08,121] {task_command.py:371} INFO - Running <TaskInstance: API_ETL.cargar_data manual__2023-07-01T15:46:05.786068+00:00 [running]> on host c8adaca8488b
+[2023-07-01 15:46:08,146] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-07-01 15:46:08,171] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DylanKaplan
+AIRFLOW_CTX_DAG_ID=API_ETL
+AIRFLOW_CTX_TASK_ID=cargar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-01T15:46:05.786068+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-01T15:46:05.786068+00:00
+[2023-07-01 15:46:08,173] {logging_mixin.py:115} INFO - Cargando la data para la fecha: 2023-07-01 15
+[2023-07-01 15:46:08,177] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/API_ETL.py", line 107, in cargar_data
+    date.month)+'-'+str(date.day)+'-'+str(date.hour)+".csv", index=False, mode='a')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: read_csv() got an unexpected keyword argument 'index'
+[2023-07-01 15:46:08,185] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=API_ETL, task_id=cargar_data, execution_date=20230701T154605, start_date=20230701T154608, end_date=20230701T154608
+[2023-07-01 15:46:08,192] {standard_task_runner.py:97} ERROR - Failed to execute job 5 for task cargar_data (read_csv() got an unexpected keyword argument 'index'; 413)
+[2023-07-01 15:46:08,202] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-01 15:46:08,229] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

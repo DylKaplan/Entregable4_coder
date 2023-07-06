@@ -1,0 +1,31 @@
+[2023-07-05 20:15:01,181] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T20:14:50.770061+00:00 [queued]>
+[2023-07-05 20:15:01,189] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: API_ETL.email manual__2023-07-05T20:14:50.770061+00:00 [queued]>
+[2023-07-05 20:15:01,190] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 20:15:01,190] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-05 20:15:01,191] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-05 20:15:01,201] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): email> on 2023-07-05 20:14:50.770061+00:00
+[2023-07-05 20:15:01,207] {standard_task_runner.py:52} INFO - Started process 228 to run task
+[2023-07-05 20:15:01,212] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'API_ETL', 'email', 'manual__2023-07-05T20:14:50.770061+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/API_ETL.py', '--cfg-path', '/tmp/tmpuixqvmk2', '--error-file', '/tmp/tmpqa16rtyr']
+[2023-07-05 20:15:01,214] {standard_task_runner.py:80} INFO - Job 35: Subtask email
+[2023-07-05 20:15:01,285] {task_command.py:371} INFO - Running <TaskInstance: API_ETL.email manual__2023-07-05T20:14:50.770061+00:00 [running]> on host 4c47b3d60a15
+[2023-07-05 20:15:01,327] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-07-05 20:15:01,367] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=DylanKaplan
+AIRFLOW_CTX_DAG_ID=API_ETL
+AIRFLOW_CTX_TASK_ID=email
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-05T20:14:50.770061+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-05T20:14:50.770061+00:00
+[2023-07-05 20:15:01,368] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: enviar() takes 0 positional arguments but 1 was given
+[2023-07-05 20:15:01,380] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=API_ETL, task_id=email, execution_date=20230705T201450, start_date=20230705T201501, end_date=20230705T201501
+[2023-07-05 20:15:01,393] {standard_task_runner.py:97} ERROR - Failed to execute job 35 for task email (enviar() takes 0 positional arguments but 1 was given; 228)
+[2023-07-05 20:15:01,423] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-05 20:15:01,457] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
